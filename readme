@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    
+    
+
+    <link rel="short icon" href="th.jfif.jpg">
+    <style>
+        body{
+  
+  
+  
+  
+ background-color: aqua;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.k{
+  margin-left: 500px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a{
+  padding: 10px 20px;
+  color: blanchedalmond;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  display: flex;
+  gap: 20px;
+  
+}
+ul li a:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.M{
+background-color: rgba(0, 255, 255, 0.758);
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  margin-left: -4px;
+   margin-top: 50px;
+  
+  
+}
+img{
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+
+.v{
+margin-left: 650px;
+margin-top: -85px;
+margin-bottom: 20px;
+}
+.w{
+  background-color: rgba(228, 176, 176, 0.703);
+  max-width: 400px;
+  margin-top: -480px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  margin-left: 800px;
+  
+  
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 18px;
+}
+
+  
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.ismo{
+  width: 50px;
+  height: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <script src="nav_sp.js"></script>
+
+    <header id="main-header">
+
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="A.html">Home</a>
+                </li>
+                <li>
+                    <a href="About.html">About_us</a>
+                </li>
+                <li>
+                        <a href="formulaire d'insrciption.php">conctact</a>
+                    </li>
+            
+                <li>
+                <a href="connrdv.php">Make an appointment</a>
+                </li>
+                <li>
+                        <a href="robot_form.php">patients_Account</a>
+                 </li>
+                 <li>
+                        <a href="Connexion_medecin.php">Medecin_Account</a>
+                    </li>
+                    <li>
+                        <a href="login_ad.php">Administrator_diag_Medical</a>
+                    </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        </header>
+<article class="M">
+    <img src="images (1).jpeg.jpg" alt="">
+    <h2>Bienvenue sur Diagnostique Médical</h2>
+    <h3>
+        <p>Diag Médical est un site web dynamique qui vous permet d'effectuer un diagnostic médical préliminaire en choisissant quelques symptômes principaux sur votre état de santé.</p>
+        <p>Notre site web est conçu pour vous aider à:</p>
+        <ul>
+            <li>Identifier vos symptômes</li>
+            <li>Obtenir des informations sur les causes possibles de vos symptômes</li>
+            <li>Recevoir des conseils sur les prochaines étapes à suivre</li>
+        </ul>
+        <p>Veuillez noter que Diag Médical ne remplace pas un avis médical professionnel. Si vous avez des inquiétudes concernant votre santé, veuillez consulter un médecin.</p>
+    </h3>
+</article>
+<article class="w">
+   <p>Le diagnostic médical joue un rôle essentiel dans la gestion efficace des maladies et des conditions de santé. En identifiant précisément la nature et la gravité d'une affection, il permet aux professionnels de la santé de proposer des traitements ciblés et adaptés à chaque individu. Cela permet non seulement d'améliorer les chances de guérison, mais aussi de réduire les risques de complications et d'éviter des traitements inutiles ou potentiellement nuisibles. De plus, un diagnostic précoce peut souvent permettre une intervention plus rapide, ce qui peut avoir un impact significatif sur le pronostic et la qualité de vie du patient. En résumé, le diagnostic médical constitue une étape cruciale dans la prise en charge des patients, offrant des avantages tangibles tant sur le plan thérapeutique que sur celui de la prévention des maladies.
+
+
+
+
+
+   </p>
+   <footer class="footer">
+      <p> @copy_right Bienvenue sur Diag_Medical</p>
+</footer>
